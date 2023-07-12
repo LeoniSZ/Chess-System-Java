@@ -21,7 +21,7 @@ public class ChessMatch {
 		}
 		
 		return mat;
-	}
+	} 
 	
 	private void initialSetup() {
 		board.placePiece(new Pawn(board, Color.WHITE), new Position(6, 4));
