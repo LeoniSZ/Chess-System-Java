@@ -59,6 +59,10 @@ public class UI {
 		System.out.println("Waiting " + chessMatch.getCurrentPlayer() + "'s move...");
 		printCapturedPieces(captured);
 		System.out.println();
+		if(chessMatch.getCheck()) {
+			System.out.println("CHECK!");
+		}
+		
 	}
 	
 	public static void printBoard(ChessPiece[][] pieces) {
